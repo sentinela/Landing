@@ -1,0 +1,22 @@
+{
+  "name": "nossa-cidade-transparente-landing",
+  "description": "Landing do projeto que visa facilitar a visualização de dados providos pelo governo",
+  "main": "index.js",
+  "authors": [
+    "Jean Bauer"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "fontawesome#^4.6.3",
+    "jquery": "^3.1.0",
+    "bootstrap": "^3.3.7",
+    "wow": "wowjs#^1.1.2"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Nossa-cidade-transparente-landing",
+  "version": "0.1.0",
+  "description": "Landing do projeto que visa facilitar a visualização de dados providos pelo governo",
+  "main": "index.js",
+  "author": "Jean Bauer",
+  "license": "GPLv3",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-cache": "^0.4.5",
+    "gulp-clean-css": "^2.0.10",
+    "gulp-concat": "^2.6.0",
+    "gulp-imagemin": "^3.0.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.1",
+    "gulp-uglify": "^1.5.3",
+    "gulp-watch": "^4.3.6"
+  },
+  "dependencies": {
+    "del": "^2.2.1"
+  }
+}

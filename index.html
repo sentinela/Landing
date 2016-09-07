@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Nossa Cidade Transparente</title>
+  <link rel="stylesheet" href="assets/css/style.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
+  <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./bower_components/font-awesome/css/font-awesome.min.css" />
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon" sizes="57x57" href="./assets/img/icon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./assets/img/icon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./assets/img/icon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/icon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./assets/img/icon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./assets/img/icon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./assets/img/icon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./assets/img/icon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/icon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="./assets/img/icon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/icon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./assets/img/icon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/icon/favicon-16x16.png">
+  <link rel="manifest" href="./assets/img/icon/manifest.json">
+
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="./assets/img/icon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <nav id="topNav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand page-scroll" href="#landing">
+          <!-- logo no futuro -->
+        </a>
+      </div>
+      <div class="navbar-collapse collapse" id="bs-navbar">
+        <ul class="nav navbar-nav">
+          <li><a class="page-scroll" href="#como-fazemos">Como fazemos</a></li>
+          <li><a class="page-scroll" href="#colabore">Colabore</a></li>
+          <li><a class="page-scroll" href="#apoiadores">Apoiadores</a></li>
+          <li><a class="page-scroll" target="_blank" href="http://twitter.com/nctransparente">Contato</a></li>
+          <!-- <li><a class="page-scroll" href="#midia">Mídia</a></li> -->
+        </ul>
+        <!-- NOT YET <ul class="nav navbar-nav navbar-right">
+          <li><a class="page-scroll" data-toggle="modal" title="Clique para fazer login" href="#login">Login</a></li>
+        </ul> -->
+      </div>
+    </div>
+  </nav>
+  <header id="landing">
+    <div class="header-content">
+      <div class="inner">
+        <h1 class="">NOSSA CIDADE TRANSPARENTE</h1>
+        <h4>Visualize de forma simples os gastos do seu município</h4>
+        <hr class="">
+        <form class="search">
+          <label for="caption">Digite seu município: </label>
+          <span class="blinking-cursor">|</span>
+          <input type="text" id="search" />
+          <input type="submit" class="btn-search" value="Visualizar" />
+          <input type="submit" class="btn-search-mobile" value="Ir" />
+        </form>
+        &nbsp;
+        <br /><br />
+        <a href="#como-fazemos" class="btn btn-help page-scroll">
+          Quero ajudar!
+          <span>Será muito bem vindo =)</span>
+        </a>
+      </div>
+    </div>
+    <video autoplay="" loop="" class="fillWidth fadeIn wow collapse in" data-wow-delay="0.5s" poster="./assets/img/traffic-poster.jpg" id="video-background">
+      <source src="./assets/img/traffic.mp4" type="video/mp4">Seu browser não suporta vídeo. =/
+    </video>
+  </header>
+  <section class="bg-primary how-it-works" id="como-fazemos">
+    <div class="container">
+      <div class="row">
+        <div class="panel-body text-center">
+          <h2 class="margin-top-0 text-primary">Como fazemos</h2>
+          <p>
+            Nosso trabalho só é possível graças a células de desenvolvimento independentes
+          </p>
+          <span class="line"></span>
+          <div class="row honeycomb">
+            <ul>
+              <li>
+                <div class="image-wrap">
+                  <img src="./assets/img/megaphone.svg" class="wow fadeIn bounce" data-wow-delay=".1s" aria-hidden="true">
+                </div>
+              </li>
+              <li>
+                <div class="image-wrap">
+                  <img src="./assets/img/loupe.svg" class="wow fadeIn" data-wow-delay=".1s" aria-hidden="true">
+                </div>
+                <div class="info">
+                  <span class="title">Crawling</span>
+                  <!-- <span class="subtitle">de diversos municípios</span> -->
+                </div>
+                <!-- <a href="#">1</a> -->
+                <div class="tip tip-1">
+                  <p>Capturamos os dados públicos de diversos municípios</span>
+                  <div class="tip-arrow"></div>
+                </div>
+              </li>
+              <li>
+                <div class="image-wrap">
+                  <img src="./assets/img/database.svg" class="wow fadeIn" data-wow-delay=".1s" aria-hidden="true">
+                </div>
+                <div class="info">
+                  <span class="title">Banco aberto</span>
+                  <!-- <span class="subtitle">de forma aberta</span> -->
+                </div>
+                <!-- <a href="#">2</a> -->
+                <div class="tip tip-2">
+                  <p>Disponibilizamos os dados capturados de forma aberta</span>
+                  <div class="tip-arrow"></div>
+                </div>
+              </li>
+              <li>
+                <div class="image-wrap">
+                  <img src="./assets/img/map-location.svg" class="wow fadeIn" data-wow-delay=".1s" aria-hidden="true">
+                </div>
+                <div class="info">
+                  <span class="title">App (mobile) e web!</span>
+                  <!-- <span class="subtitle">e na plataforma web</span> -->
+                </div>
+                <!-- <a href="#">3</a> -->
+                <div class="tip tip-3">
+                  <p>Incluimos a cidade monitorada no app e na plataforma web</span>
+                  <div class="tip-arrow"></div>
+                </div>
+              </li>
+              <li>
+                <div class="image-wrap">
+                  <img src="./assets/img/presentation.svg" class="wow fadeIn" data-wow-delay=".1s" aria-hidden="true">
+                </div>
+                <div class="info">
+                  <span class="title">Pronto!</span>
+                  <!-- <span class="subtitle">você já pode visualizar sua cidade por aqui</span> -->
+                </div>
+                <!-- <a href="#">4</a> -->
+                <div class="tip tip-4">
+                  <p>Você já pode visualizar sua cidade aqui no site :)</span>
+                  <div class="tip-arrow"></div>
+                </div>
+              </li>
+              <li>
+                <div class="image-wrap">
+                  <img src="./assets/img/success.svg" class="wow fadeIn" data-wow-delay=".1s" aria-hidden="true">
+                </div>
+              </li>
+            </ul>
+        </div>
+        <!-- <a href="#midia" class="btn btn-default btn-xl page-scroll">Veja na mídia</a> -->
+      </div>
+    </div>
+  </section>
+
+  <section class="contribute" id="colabore">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="margin-top-0 text-primary">Você pode nos ajudar de diversas formas</h2>
+          <hr class="primary">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 text-center">
+          <div class="feature">
+            <h3>Empresa</h3>
+            <p class="text-muted">Se a sua empresa almeja auxíliar no engajamento público na política, vamos conversar =)</p>
+            <img src="./assets/img/store.svg" class="wow fadeIn" data-wow-delay=".1s" aria-hidden="true">
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 text-center">
+          <div class="feature">
+            <h3>Pessoa desenvolvedora</h3>
+            <p class="text-muted">Dê uma olhada na nossa aba de contribuição e veja como ajudar</p>
+            <img src="./assets/img/codegirl.svg" class="wow fadeIn" data-wow-delay=".1s" aria-hidden="true">
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 text-center">
+          <div class="feature">
+            <h3>Designer</h3>
+            <p class="text-muted">Nós buscamos a excelência em UX e pitacos, clique para contribuir</p>
+            <img src="./assets/img/designer.svg" class="wow fadeIn" data-wow-delay=".1s" aria-hidden="true">
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 text-center">
+          <div class="feature">
+            <h3>Outra(o)</h3>
+            <p class="text-muted">Quer ajudar de outra forma? Divulgação? Ideias? Feedback? Sinta-se livre</p>
+            <img src="./assets/img/idea.svg" class="wow fadeIn" data-wow-delay=".1s" aria-hidden="true">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <aside id="apoiadores" class="bg-dark partners">
+    <div class="container text-center">
+      <div class="row">
+        <div class="call-to-action">
+          <h2 class="text-primary">APOIADORES</h2>
+        </div>
+         <div class="col-lg-12 col-md-12">
+           <div><p>
+             <a href="http://twitter.com/nctransparente" target="_top">Seja você</a>
+           </p></div>
+           <div><p>
+             <a href="http://twitter.com/nctransparente" target="_top">a primeira</a>
+           </p></div>
+           <div><p>
+            <a href="http://twitter.com/nctransparente" target="_top">a apoiar!</a>
+           </p></div>
+         </div>
+     </div>
+    </div>
+  </aside>
+
+  <!-- <section id="midia" class="no-padding">
+    <div class="container-fluid">
+      <div class="row no-gutter">
+        <div class="col-lg-4 col-sm-12">
+          <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="#">
+            <img src="#" class="img-responsive" alt="">
+            <div class="gallery-box-caption">
+              <div class="gallery-box-content">
+                <div>
+                  <i class="fa some random newspaper icon"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="#">
+            <img src="#"  class="img-responsive" alt="">
+            <div class="gallery-box-caption">
+              <div class="gallery-box-content">
+                <div>
+                  <i class="fa some random newspaper icon"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="#">
+            <img src="#" class="img-responsive" alt="">
+            <div class="gallery-box-caption">
+              <div class="gallery-box-content">
+                <div>
+                  <i class="fa some random newspaper icon"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!--  Não me julguem, one does not simply faz um mailPhp funcionar na Hostinger...
+  <section class="contact" id="contato">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+          <h2 class="margin-top-0 wow fadeIn">Entre em contato</h2>
+          <hr class="primary">
+          <p>Adoraríamos ouvir o seu feedback sobre a ferramenta ou alguma outra ideia!</p>
+        </div>
+         <div class="col-lg-10 col-lg-offset-1 text-center">
+          <form class="contact-form row">
+            <div class="col-md-6">
+              <label></label>
+              <input id="name" type="text" class="form-control" placeholder="Nome...">
+            </div>
+            <div class="col-md-6">
+              <label></label>
+              <input id="email" type="text" class="form-control" placeholder="Email...">
+            </div>
+            <div class="col-md-12">
+              <label></label>
+              <textarea id="message" class="form-control" rows="9" placeholder="Sua mensagem..."></textarea>
+            </div>
+            <div class="col-md-12">
+              <label></label>
+              <button type="button" data-toggle="modal" data-target="#alertModal" class="btn-contact btn-block btn-lg">
+                Enviar
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <footer id="footer">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-6 col-sm-4 column">
+          <h4>Sobre</h4>
+          <ul class="list-unstyled">
+            <li><a href="https://github.com/nossacidadetransparente/Projeto">O projeto</a></li>
+            <!-- <li><a href="#">Parceiros</a></li> -->
+            <li><a href="http://twitter.com/nctransparente">News</a></li>
+            <li><a href="http://medium.com/@nossacidadetransparente">Blog</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-6 col-sm-4 column">
+          <h4>Suporte</h4>
+          <ul class="list-unstyled">
+            <!-- <li><a href="#">Ajuda</a></li> -->
+            <li><a href="https://github.com/nossacidadetransparente/Landing/CREDITS.md">Créditos</a></li>
+          </ul>
+        </div>
+        <!-- <div class="col-xs-12 col-sm-3 column">
+          <h4>Newsletter (work in progress)</h4>
+          <form>
+            <div class="form-group">
+              <input type="text" class="form-control" title="Junte-se a nós" placeholder="Digite seu e-mail">
+            </div>
+            <div class="form-group">
+              <button class="btn btn-primary" data-toggle="modal" data-target="#alertModal" type="button">Inscrever-se em nossa newsletter</button>
+            </div>
+          </form>
+        </div> -->
+        <div class="col-xs-12 col-sm-4 text-right">
+          <h4>Social</h4>
+          <ul class="list-inline">
+            <li><a rel="nofollow" aria-label="Ver a página no twitter" href="http://twitter.com/nctransparente" title="Twitter">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a></li>
+            <li><a rel="nofollow" aria-label="Ver o blog no medium" href="http://medium.com/@nossacidadetransparente" title="Medium">
+              <i class="fa fa-medium" aria-hidden="true"></i>
+            </a></li>
+            <li><a aria-label="Ver o código no github" href="https://github.com/nossacidadetransparente/" title="GitHub">
+              <i class="fa fa-github" aria-hidden="true"></i>
+            </a></li>
+          </ul>
+        </div>
+      </div>
+      <br/>
+      <span class="pull-right text-muted small">feito com <span class="heart">❤</span> por <a href="http://www.github.com/jeanbauer">Jean Bauer</a> ©2016</span>
+    </div>
+  </footer>
+
+  <div id="login" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="login">
+      <h2 class="active"> Entrar </h2>
+      <i class="fa fa-close" data-dismiss="modal" aria-hidden="true"></i>
+      <form>
+        <input placeholder="Digite seu usuário, ex.: anamaria" type="text" class="text" name="username">
+        <span>Usuário</span>
+        <br />
+        <input placeholder="Digite sua senha..." type="password" class="text" name="password">
+        <span>Senha</span>
+        <button class="sign-in">Entrar</button>
+        <a href="#">Ou entrar sem fazer login</a>
+        <a href="#">Esqueceu a senha?</a>
+      </form>
+    </div>
+  </div>
+
+  <div id="alertModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-body">
+          <h2 class="text-center">E-mail enviado!</h2>
+          <p class="text-center">Obrigado por entrar em contato, tentaremos responder seu e-mail o mais breve possível.</p>
+          <p class="text-center"><a href="http://www.github.com/nossacidadetransparente">Acompanhe nosso progresso!</a> <i class="fa fa-github" aria-hidden="true"></i></p><br/>
+          <button class="btn btn-purple btn-lg center-block" data-dismiss="modal" aria-hidden="true">Fechar <i class="fa fa-close" aria-hidden="true"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script src="./bower_components/wow/dist/wow.min.js"></script>
+  <script src="./assets/js/main.min.js"></script>
+</body>
+</html>

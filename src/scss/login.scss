@@ -1,0 +1,124 @@
+@import 'style';
+
+#login {
+
+  .sign-in {
+    background-color: #d3d3d3;
+    color: #fff;
+    font-size: 14px;
+  }
+
+  .fa {
+    float: right;
+  }
+
+  .login {
+    position: relative;
+    width: 405px;
+    padding: 15px;
+    margin-top: 60px;
+    float: right;
+    background-color: #FFF;
+    box-shadow: 0px 30px 60px -5px #000;
+    a {
+      float: right;
+      display: inline-block;
+      position: relative;
+      text-decoration: none;
+      color: rgba(0, 0, 0, 0.33);
+      margin-top: 20px;
+      &:hover {
+        color: $green;
+      }
+      &:first-child {
+        text-align: left;
+      }
+    }
+  }
+
+  form {
+    padding-top: 20px;
+  }
+
+  .active {
+    border-bottom: 2px solid $green;
+    font-family: 'Roboto',serif!important;
+  }
+
+  h2 {
+    padding-left: 12px;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    display: inline-block;
+    font-weight: 100;
+    &:first-child {
+      padding-left: 0px;
+    }
+  }
+
+  span {
+    text-transform: uppercase;
+    font-size: 12px;
+    opacity: 0.4;
+    display: inline-block;
+    position: relative;
+    top: -65px;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .text {
+    border: none;
+    width: 100%;
+    padding: 10px 10px;
+    display: block;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid #b7b2b2;
+    overflow: hidden;
+    margin-top: 15px;
+    transition: all 0.5s ease-in-out;
+    &:focus {
+      outline: 0;
+      border: 2px solid darken(#b7b2b2, 10%);
+      border-radius: 3px;
+      background: rgba(0, 0, 0, 0);
+    }
+  }
+
+  .text:focus + span {
+    opacity: 0.6;
+  }
+
+  input {
+    display: inline-block;
+    padding-top: 20px;
+    font-size: 14px;
+  }
+
+  .sign-in {
+    background-color: #2ecc71;
+    color: #FFF;
+    width: 100%;
+    display: block;
+    height: 39px;
+    transition: all 0.5s ease-in-out;
+    border: none;
+    text-transform: uppercase;
+    &:hover {
+      background: $green;
+      box-shadow: 0px 4px 35px -5px $green;
+      cursor: pointer;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .sign-in + a {
+    color: $green;
+    float: left;
+    &:hover {
+      color: darken($green, 10%);
+    }
+  }
+}

@@ -1,0 +1,39 @@
+$heart: #e74c3c;
+
+footer {
+  background: #333;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  span {
+    a {
+      color: #777;
+      cursor: pointer;
+      &:hover {
+        color: #FFF;
+        text-decoration: none;
+      }
+    }
+    .heart {
+      color: $heart;
+    }
+  }
+  .row {
+      div {
+      border: 1px solid rgba(255,255,255,0.2);
+      color: #FFF;
+      height: 135px;
+      h4 {
+        color: #FFF;
+      }
+      ul {
+        li {
+          a{
+            color: #FFF;
+          }
+        }
+      }
+    }
+  }
+}

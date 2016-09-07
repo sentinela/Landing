@@ -1,0 +1,30 @@
+.contribute {
+  h2 {
+    color: #333;
+    font-size: 30px;
+    line-height: 1.5em;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #333;
+  }
+  img {
+    height: 150px;
+    position: absolute;
+    /* top: demais :p */
+    bottom: -30px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+  .col-md-3 {
+    height: 400px;
+    border: 1px solid rgba(201,201,201,.49);
+    position: relative;
+    cursor: pointer;
+    &:hover {
+      opacity: .7;
+    }
+  }
+}
